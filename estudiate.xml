@@ -4,7 +4,9 @@
 <!DOCTYPE reporte [
     <!-- Para estudiantes, nombres, apellidos y nota1 nota2-->
     <!-- el campo reporte era requerido por que donde sino van a estar los estudiantes-->
-    <!ELEMENT reporte (estudiantes+)><!-- extra-->
+    <!ELEMENT reporte (estudiantes+)>
+    <!-- extra-->
+    <!ATTLIST estudiantes id CDATA #REQUIRED>
     <!ELEMENT estudiantes (nombres, apellidos, telefono, notas+)>
     <!ELEMENT nombres (#PCDATA)>
     <!ELEMENT apellidos (#PCDATA)>
@@ -15,28 +17,28 @@
     <!ELEMENT nota3 (#PCDATA)>
 ]>
 
-<reporte><!-- extra-->
-    <estudiantes>
+<reporte>
+    <!-- extra-->
+    <estudiantes id="e1">
         <nombres> &quot; alan atilio &quot; </nombres>
         <apellidos> &apos; condori arapa &apos; </apellidos>
-        <telefono> 936660120 </telefono><!-- extra-->
+        <telefono> 936660120 </telefono> <!-- extra-->
         <notas>
             <nota1>16</nota1>
             <nota2>14</nota2>
-            <nota3>15</nota3><!-- extra-->
+            <nota3>15</nota3> <!-- extra-->
         </notas>
     </estudiantes>
 
-    <estudiantes>
+    <estudiantes id="e2">
         <nombres> &quot; Venjamin Manterial &quot; </nombres>
         <apellidos> &apos; Valdivia Gamon &apos; </apellidos>
-        <telefono> 987475634 </telefono><!-- extra-->
+        <telefono> 987475634 </telefono> <!-- extra-->
         <notas>
             <nota1>18</nota1>
             <nota2>11</nota2>
-            <nota3>05</nota3><!-- extra-->
+            <nota3>05</nota3> <!-- extra-->
         </notas>
     </estudiantes>
 </reporte>
-
 <!-- By: Alan Condori Arapa-->
