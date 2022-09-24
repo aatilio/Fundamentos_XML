@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<!DOCTYPE reporte [
+    <!-- Para estudiantes, nombres, apellidos y nota1 nota2-->
+    <!-- el campo reporte era requerido por que donde sino van a estar los estudiantes-->
+    <!ELEMENT reporte (estudiantes+)><!-- extra-->
+    <!ELEMENT estudiantes (nombres, apellidos, telefono, notas+)>
+    <!ELEMENT nombres (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT notas (nota1, nota2, nota3)>
+    <!ELEMENT nota1 (#PCDATA)>
+    <!ELEMENT nota2 (#PCDATA)>
+    <!ELEMENT nota3 (#PCDATA)>
+]>
+
+<reporte><!-- extra-->
+    <estudiantes>
+        <nombres> &quot; alan atilio &quot; </nombres>
+        <apellidos> &apos; condori arapa &apos; </apellidos>
+        <telefono> 936660120 </telefono><!-- extra-->
+        <notas>
+            <nota1>16</nota1>
+            <nota2>14</nota2>
+            <nota3>15</nota3><!-- extra-->
+        </notas>
+    </estudiantes>
+
+    <estudiantes>
+        <nombres> &quot; Venjamin Manterial &quot; </nombres>
+        <apellidos> &apos; Valdivia Gamon &apos; </apellidos>
+        <telefono> 987475634 </telefono><!-- extra-->
+        <notas>
+            <nota1>18</nota1>
+            <nota2>11</nota2>
+            <nota3>05</nota3><!-- extra-->
+        </notas>
+    </estudiantes>
+</reporte>
+
+<!-- By: Alan Condori Arapa-->

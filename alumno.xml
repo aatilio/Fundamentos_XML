@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<aula>
+	<estudiante ID="s1">
+		<nombre> &quot; alan atilio &quot; </nombre>
+		<correo> &apos; alan@sorian.com &apos; </correo>
+		<direccion>
+			<calle> &lt; ventura &gt;</calle>
+			<numero>&lt;234 &gt;</numero>
+			<distrito>&lt;socabaya &gt;</distrito>
+		</direccion>
+		<teléfono> 987475634 </teléfono>
+		<nota1>16</nota1>
+		<nota2>14</nota2>
+		<nota3>15</nota3>
+	</estudiante>
+	<estudiante ID="s2">
+		<nombre>&amp; terry varagas </nombre>
+		<correo> tubetofiufiu@sorian.com </correo>
+		<direccion>
+			<calle>porongoche</calle>
+			<numero>28</numero>
+			<distrito>paucarpata</distrito>
+		</direccion>
+		<teléfono> 954564654 </teléfono>
+		<nota1>20</nota1>
+		<nota2>09</nota2>
+		<nota3>18</nota3>
+	</estudiante>
+	<estudiante ID="s3">
+		<nombre> veronica alarco </nombre>
+		<correo> vero@sorian.com </correo>
+		<direccion>
+			<calle>bolivia</calle>
+			<numero>741</numero>
+			<distrito>characto</distrito>
+		</direccion>
+		<teléfono> 987457854 </teléfono>
+		<nota1>11</nota1>
+		<nota2>19</nota2>
+		<nota3>16</nota3>
+	</estudiante>
+	<estudiante ID="s4">
+		<nombre> Casimiro </nombre>
+		<correo> casimiro@sorian.com </correo>
+		<direccion>
+			<calle>archado</calle>
+			<numero>589</numero>
+			<distrito>tiabaya</distrito>
+		</direccion>
+		<teléfono> 987456321 </teléfono>
+		<nota1>16</nota1>
+		<nota2>05</nota2>
+		<nota3>20</nota3>
+	</estudiante>
+</aula>

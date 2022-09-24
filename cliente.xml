@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE Store [
+    <!--Los clientes deber registrarse con sus correos, teléfonos u pueden tener una 
+        o más preferencias y también categoría la categoría puede ser Regular, 
+        Frecuente y Vip-->
+    <!ELEMENT Store (cliente+)><!-- extra-->
+    <!ELEMENT cliente (nombre, correo, telefono, categoria?)+>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT correo (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT categoria EMPTY>
+    <!ATTLIST categoria tipo (Regular | Frecuente | Vip) "Frecuente">
+]>
+<Store><!-- extra-->
+    <cliente>
+        <nombre>juan alverto calaveriano</nombre><!-- extra-->
+        <correo>juanpepito@gmail.com</correo>
+        <telefono>987456232</telefono>
+        <categoria tipo="Regular" />
+    </cliente>
+    <cliente>
+        <nombre>Banesa Foladu</nombre><!-- extra-->
+        <correo>Banesa@gmail.com</correo>
+        <telefono>985632741</telefono>
+        <categoria tipo="Frecuente" />
+    </cliente>
+</Store>
+
+<!-- By: Alan Condori Arapa-->

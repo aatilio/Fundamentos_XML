@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE novela [
+	<!ELEMENT novela (titulo, autor, parrafo+)>
+	<!ELEMENT titulo (#PCDATA)>
+	<!ELEMENT parrafo (#PCDATA)>
+]>
+
+<!DOCTYPE novela SYSTEM "novela.dtd">
+
+<novela>
+	<titulo> &quot; Cien años de soledad  &quot; </titulo>
+	<autor>García Garcia Márquez</autor>
+	<parrafo>
+		Muchos años después, frente al pelotón de fusilamiento, el coronel 
+		Aureliano Buendía habría de recordar aquella  tarde remota en que 
+		su padre lo llevó a conocer el hielo.
+	</parrafo>
+	<parrafo>
+		Macondo era entonces una aldea de veinte casas de barro y cañabrava 
+		construidas a la orilla de un río de aguas diáfanas que se precipitaban 
+		por un lecho de piedras pulidas, blancas y enormes como 
+		huevos prehistóricos.
+	</parrafo>
+</novela>
