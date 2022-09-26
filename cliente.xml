@@ -25,6 +25,12 @@
         <telefono>985632741</telefono>
         <categoria tipo="Frecuente" />
     </cliente>
+    <cliente>
+        <nombre>Banesa Foladu</nombre><!-- extra-->
+        <correo>Banesa@gmail.com</correo>
+        <telefono>985632741</telefono>
+        <categoria tipo="Frecuente" />
+    </cliente>
 </Store>
 
 <!-- By: Alan Condori Arapa-->
