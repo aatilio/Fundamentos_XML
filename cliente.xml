@@ -26,10 +26,10 @@
         <categoria tipo="Frecuente" />
     </cliente>
     <cliente>
-        <nombre>Banesa Foladu</nombre><!-- extra-->
-        <correo>Banesa@gmail.com</correo>
-        <telefono>985632741</telefono>
-        <categoria tipo="Frecuente" />
+        <nombre>Filomeno</nombre><!-- extra-->
+        <correo>filo@gmail.com</correo>
+        <telefono>985985741</telefono>
+        <categoria tipo="Regular" />
     </cliente>
 </Store>
 
