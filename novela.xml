@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<!--<?xml-stylesheet type="text/xsl" href="ejemplo.xsl"?> -->
+
 <!DOCTYPE novela [
 	<!ELEMENT novela (titulo, autor, parrafo+)>
 	<!ELEMENT titulo (#PCDATA)>
