@@ -3,10 +3,9 @@
 <!DOCTYPE novela [
 	<!ELEMENT novela (titulo, autor, parrafo+)>
 	<!ELEMENT titulo (#PCDATA)>
+	<!ELEMENT autor (#PCDATA)>
 	<!ELEMENT parrafo (#PCDATA)>
 ]>
-
-<!DOCTYPE novela SYSTEM "novela.dtd">
 
 <novela>
 	<titulo> &quot; Cien años de soledad  &quot; </titulo>
